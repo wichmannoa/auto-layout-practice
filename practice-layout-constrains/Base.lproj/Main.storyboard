@@ -4,7 +4,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -37,31 +36,31 @@
                                     <constraint firstAttribute="height" constant="128" id="zoK-OY-PI1"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7IV-hK-d41">
-                                <rect key="frame" x="20" y="464" width="222" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7IV-hK-d41">
+                                <rect key="frame" x="20" y="444" width="128" height="128"/>
                                 <color key="backgroundColor" red="0.84313732389999996" green="0.74509805439999999" blue="0.180392161" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="Rja-f6-yJj"/>
                                     <constraint firstAttribute="height" constant="128" id="a1r-oz-b4H"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4NU-5V-IEd">
-                                <rect key="frame" x="340" y="464" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4NU-5V-IEd">
+                                <rect key="frame" x="452" y="444" width="128" height="128"/>
                                 <color key="backgroundColor" red="0.83137261870000001" green="0.25490197539999998" blue="0.1215686351" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="hfF-02-fH7"/>
                                     <constraint firstAttribute="height" constant="128" id="jFz-fq-Yyv"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7IV-hK-d41" secondAttribute="bottom" constant="8" id="7Aa-CT-HkQ"/>
-                            <constraint firstItem="4NU-5V-IEd" firstAttribute="width" secondItem="5E0-hF-Lry" secondAttribute="width" multiplier="0.4" id="DID-jH-sRW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7IV-hK-d41" secondAttribute="bottom" constant="28" id="7Aa-CT-HkQ"/>
                             <constraint firstItem="7IV-hK-d41" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="DK7-Jw-Udk"/>
                             <constraint firstItem="5E0-hF-Lry" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="gIt-fe-1ZL"/>
                             <constraint firstItem="5E0-hF-Lry" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hVH-ua-KAo"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4NU-5V-IEd" secondAttribute="bottom" constant="8" id="oZJ-xW-Xio"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4NU-5V-IEd" secondAttribute="bottom" constant="28" id="oZJ-xW-Xio"/>
                             <constraint firstItem="5E0-hF-Lry" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rNU-uU-ElH"/>
-                            <constraint firstItem="7IV-hK-d41" firstAttribute="width" secondItem="5E0-hF-Lry" secondAttribute="width" multiplier="0.4" id="vFV-1S-fyW"/>
                             <constraint firstAttribute="trailing" secondItem="4NU-5V-IEd" secondAttribute="trailing" constant="20" id="xAZ-og-PPG"/>
                         </constraints>
                     </view>
